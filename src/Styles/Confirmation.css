@@ -1,0 +1,29 @@
+.Div2 {
+    margin-left: 50%;
+    border: 1px solid white;
+    border-left-color: grey;
+    text-align: center;
+    height: 100%;
+    margin-top: -39%;
+    /* display: inline-block; */
+}
+.labelDiv {
+    text-align: center;
+    /* display: inline-block; */
+    width: 50%;
+    /* display: inline-block; */
+}
+
+.rootDiv{
+    text-align: left;
+    margin-top: 0%;
+    height: 80%;
+}
+.anotherAppointmentBtn{
+    margin: 1.5%;
+    width: 48%
+}
+
+.QrDiv{
+    padding-left: 12%;
+}

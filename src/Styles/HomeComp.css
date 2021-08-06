@@ -1,0 +1,19 @@
+.Heading{
+    font-size: xxx-large;
+    font-weight:bold;
+}
+
+.SubHeading{
+    font-size:medium;
+    margin-top: 2%
+}
+
+.HeadingDiv{
+    margin-top: 3%;
+}
+
+.NavigatorDiv{
+    width: 48%;
+    margin-left: 24%;
+    padding: 2%
+}

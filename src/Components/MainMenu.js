@@ -2,7 +2,6 @@ import React from 'react'
 import SericeProviding from './SericeProviding'
 import '../Styles/Menu.css'
 
-
 function MainMenu(props) {
     return (
         <div className='DivMargin'>

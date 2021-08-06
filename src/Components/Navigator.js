@@ -19,7 +19,6 @@ import { useSelector } from 'react-redux'
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
-    console.log('children', children);
     return (
         <div
             role="tabpanel"

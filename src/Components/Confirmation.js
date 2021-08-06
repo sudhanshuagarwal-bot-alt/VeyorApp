@@ -5,15 +5,13 @@ import Button from '@material-ui/core/Button';
 import { useDispatch } from 'react-redux'
 import { CancelBookingDetails } from '../Redux/BookingDetails/BookingAction';
 
-
-
 function Confirmation(props) {
     const { dateTimeDetails } = props;
     const dispatch = useDispatch();
 
     const ClickCancel = () => {
         dispatch(CancelBookingDetails());
-        props.ToggleTab('one', props.dateTimeDetails);
+        props.ToggleTab('one', {});
     }
 
     const ClickAnotherSchedule = () => {
@@ -26,7 +24,7 @@ function Confirmation(props) {
                 {dateTimeDetails?.serviceName}<br></br>
                 {dateTimeDetails?.selectedDate}<br />
                 {dateTimeDetails?.selectedTime}<br />
-                {companyName} {dateTimeDetails.selectedCosting}<br /><br />
+                {companyName} {dateTimeDetails?.selectedCosting}<br /><br />
             </div>
             <div className='labelDiv'>
                 {<Button variant="contained" color="primary" onClick={ClickCancel} >Cancel</Button>} &nbsp;&nbsp;

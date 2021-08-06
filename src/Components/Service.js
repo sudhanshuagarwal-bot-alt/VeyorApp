@@ -27,8 +27,8 @@ function Service({ service, ToggleTab }) {
     }
 
     const OnCalendarClose = (dateTimeDetails) => {
-        setService(0);
         ToggleTab('two', dateTimeDetails);
+        setService(0);
     }
 
     return (

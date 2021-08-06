@@ -7,12 +7,11 @@ import Time from './Time';
 
 
 function Scheduler(props) {
-    
     const [selectedDate, setSelectedDate] = React.useState(new Date());
     const [timeList, setTimeList] = React.useState([]);
     const [selectedTime, setselectedTimet] = React.useState('');
     const AllTimes = useSelector(state => state.Categories.state.timingList)
-
+    
     const handleDateChange = (date) => {
         setSelectedDate(date);
         const details = {
